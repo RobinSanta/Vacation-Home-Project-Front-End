@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <script src="index.js"></script>
+    <body>
+        <header>
+            <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+            <link rel="stylesheet" href="material.css">
+            <link rel="stylesheet" href="styles.css">
+            <h1>Vacation Homes</h1>
+        </header>
+        
+        <div id="home-list">
+        </div>
+
+        
+        <div id="form-container">
+            
+            <div class="new-home">
+                <h2>Add New Vacation Home</h2>
+                <form id="add-home-form">
+                    <label>New Home Name:</label>
+                    <input type="text" name="name" value=""/><br><br>
+        
+                    <label>Owner:</label>
+                    <select name="owners" id="owners">
+                    </select><br><br>
+        
+                    <label>Location:</label>
+                    <select name="locations" id="locations">
+                    </select><br><br>
+        
+                    <input type="submit" value="Submit" />
+                </form>
+            </div>
+    
+            <div class="new-owner">
+                <h2>Add New Owner</h2>
+                <form id="add-owner-form">
+                    <label>New Owner Name:</label>
+                    <input type="text" name="name" value=""><br><br>
+                    <input type="submit" value="Submit">
+                </form>
+            </div>
+            
+        </div>
+        <script defer src="material.js"></script>
+    </body>
+</html>

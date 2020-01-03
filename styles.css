@@ -1,0 +1,25 @@
+h1 {
+    position: relative;
+    left: 500px;
+}
+
+.new-home {
+    position: relative;
+}
+
+.new-owner {
+    position: relative;
+}
+
+.vacation-home-card {
+    width: fit-content;
+}
+
+body {
+    background-color: lightskyblue;
+}
+
+#form-container {
+    display: flex;
+    justify-content: space-between;
+}
